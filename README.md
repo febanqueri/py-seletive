@@ -21,6 +21,7 @@
 ### Instalação Django e bibliotecas:
 > pip install django
 > pip install pillow
+
 [Django](https://www.djangoproject.com/)
 [Pillow](https://pillow.readthedocs.io/en/stable/)
 
@@ -32,3 +33,18 @@
 
 ### Criando um app:
 > python manage.py startapp empresa
+
+
+### Extensão para o VS Code (SQLite):
+> Name: SQLite Viewer
+> Id: qwtel.sqlite-viewer
+> Description: SQLite Viewer for VSCode
+> Version: 0.1.5
+> Publisher: Florian Klampfer
+> VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer
+
+### Para realizar um checkup das Models (Tabelas do Banco) criadas:
+> python manage.py makemigrations
+
+### Para realizar um "commit" para o Banco:
+> python manage.py migrate
