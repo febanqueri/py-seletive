@@ -26,3 +26,9 @@
 
 ### Criando o projeto em Django
 > django-admin startproject NOME_DO_PROJETO.
+
+### Iniciando o projeto com o Django:
+> python manage.py runserver
+
+### Criando um app:
+> python manage.py startapp empresa
